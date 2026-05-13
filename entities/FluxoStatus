@@ -1,0 +1,35 @@
+{
+  "name": "FluxoStatus",
+  "type": "object",
+  "properties": {
+    "Ordem": {
+      "description": "Campo da planilha mãe: Ordem",
+      "type": "string"
+    },
+    "Processo": {
+      "description": "Campo da planilha mãe: Processo",
+      "type": "string"
+    },
+    "Status": {
+      "description": "Campo da planilha mãe: Status",
+      "type": "string"
+    },
+    "Responsável": {
+      "description": "Campo da planilha mãe: Responsável",
+      "type": "string"
+    },
+    "Próximo status": {
+      "description": "Campo da planilha mãe: Próximo status",
+      "type": "string"
+    },
+    "Descrição": {
+      "description": "Campo da planilha mãe: Descrição",
+      "type": "string"
+    },
+    "Automação/ação": {
+      "description": "Campo da planilha mãe: Automação/ação",
+      "type": "string"
+    }
+  },
+  "required": []
+}

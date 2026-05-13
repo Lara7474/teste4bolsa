@@ -1,0 +1,133 @@
+{
+  "name": "Bolsista",
+  "type": "object",
+  "properties": {
+    "nome_completo": {
+      "type": "string",
+      "description": "Nome completo"
+    },
+    "cpf": {
+      "type": "string",
+      "description": "CPF"
+    },
+    "rg": {
+      "type": "string",
+      "description": "RG"
+    },
+    "data_nascimento": {
+      "type": "string",
+      "format": "date",
+      "description": "Data de nascimento"
+    },
+    "nacionalidade": {
+      "type": "string",
+      "description": "Nacionalidade"
+    },
+    "estado_civil": {
+      "type": "string",
+      "enum": [
+        "solteiro",
+        "casado",
+        "divorciado",
+        "viuvo",
+        "uniao_estavel"
+      ],
+      "description": "Estado civil"
+    },
+    "endereco": {
+      "type": "string",
+      "description": "Endere\u00e7o completo"
+    },
+    "cidade": {
+      "type": "string",
+      "description": "Cidade"
+    },
+    "uf": {
+      "type": "string",
+      "description": "UF"
+    },
+    "cep": {
+      "type": "string",
+      "description": "CEP"
+    },
+    "email": {
+      "type": "string",
+      "description": "E-mail"
+    },
+    "telefone": {
+      "type": "string",
+      "description": "Telefone"
+    },
+    "formacao_academica": {
+      "type": "string",
+      "description": "Forma\u00e7\u00e3o acad\u00eamica"
+    },
+    "curriculo_url": {
+      "type": "string",
+      "description": "URL do curr\u00edculo"
+    },
+    "documentos_pessoais_urls": {
+      "type": "array",
+      "description": "URLs dos documentos pessoais",
+      "items": {
+        "type": "string"
+      }
+    },
+    "banco": {
+      "type": "string",
+      "description": "Banco"
+    },
+    "agencia": {
+      "type": "string",
+      "description": "Ag\u00eancia"
+    },
+    "conta": {
+      "type": "string",
+      "description": "Conta"
+    },
+    "tipo_conta": {
+      "type": "string",
+      "enum": [
+        "corrente",
+        "poupanca"
+      ],
+      "description": "Tipo de conta"
+    },
+    "pix": {
+      "type": "string",
+      "description": "Chave PIX"
+    },
+    "declaracao_nao_acumulo": {
+      "type": "boolean",
+      "description": "Declara\u00e7\u00e3o de n\u00e3o ac\u00famulo de bolsa"
+    },
+    "aceite_termos": {
+      "type": "boolean",
+      "description": "Aceite dos termos"
+    },
+    "numero_edital": {
+      "type": "string",
+      "description": "N\u00famero do edital ao qual se candidatou"
+    },
+    "contrato_id": {
+      "type": "string",
+      "description": "ID do contrato associado"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "candidato",
+        "selecionado",
+        "contratado",
+        "encerrado",
+        "desistente"
+      ],
+      "default": "candidato",
+      "description": "Status do bolsista"
+    }
+  },
+  "required": [
+    "nome_completo",
+    "cpf"
+  ]
+}

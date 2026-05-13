@@ -1,0 +1,74 @@
+{
+  "name": "ModeloDocumento",
+  "type": "object",
+  "properties": {
+    "nome": {
+      "type": "string",
+      "description": "Nome do modelo"
+    },
+    "tipo": {
+      "type": "string",
+      "enum": [
+        "termo_referencia",
+        "edital",
+        "termo_outorga",
+        "aditivo_valor",
+        "aditivo_modalidade",
+        "aditivo_periodo",
+        "distrato",
+        "declaracao",
+        "relatorio"
+      ],
+      "description": "Tipo de documento"
+    },
+    "instituicao": {
+      "type": "string",
+      "description": "Institui\u00e7\u00e3o do modelo (ex: Embrapa, FAPED, UFSJ)"
+    },
+    "descricao": {
+      "type": "string",
+      "description": "Descri\u00e7\u00e3o do modelo"
+    },
+    "arquivo_url": {
+      "type": "string",
+      "description": "URL do arquivo do modelo"
+    },
+    "arquivo_nome": {
+      "type": "string",
+      "description": "Nome original do arquivo"
+    },
+    "formato": {
+      "type": "string",
+      "enum": [
+        "docx",
+        "pdf",
+        "txt"
+      ],
+      "description": "Formato do arquivo"
+    },
+    "versao": {
+      "type": "string",
+      "description": "Vers\u00e3o do modelo (ex: v1.0, 2024)"
+    },
+    "ativo": {
+      "type": "boolean",
+      "default": true,
+      "description": "Se o modelo est\u00e1 ativo para uso"
+    },
+    "placeholders": {
+      "type": "array",
+      "description": "Lista de placeholders do modelo",
+      "items": {
+        "type": "string"
+      }
+    },
+    "observacoes": {
+      "type": "string",
+      "description": "Observa\u00e7\u00f5es sobre o modelo"
+    }
+  },
+  "required": [
+    "nome",
+    "tipo"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "name": "Edital",
+  "type": "object",
+  "properties": {
+    "numero_edital": {
+      "type": "string",
+      "description": "N\u00famero do edital"
+    },
+    "titulo": {
+      "type": "string",
+      "description": "T\u00edtulo do edital"
+    },
+    "solicitacao_id": {
+      "type": "string",
+      "description": "ID da solicita\u00e7\u00e3o de origem"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "rascunho",
+        "publicado",
+        "inscricoes_abertas",
+        "inscricoes_encerradas",
+        "selecao",
+        "resultado",
+        "encerrado",
+        "cancelado"
+      ],
+      "default": "rascunho",
+      "description": "Status do edital"
+    },
+    "data_publicacao": {
+      "type": "string",
+      "format": "date",
+      "description": "Data de publica\u00e7\u00e3o"
+    },
+    "data_limite_inscricao": {
+      "type": "string",
+      "format": "date",
+      "description": "Data limite de inscri\u00e7\u00e3o"
+    },
+    "modalidade_bolsa": {
+      "type": "string",
+      "description": "Modalidade da bolsa"
+    },
+    "quantidade_vagas": {
+      "type": "number",
+      "description": "Quantidade de vagas"
+    },
+    "valor_bolsa": {
+      "type": "number",
+      "description": "Valor da bolsa"
+    },
+    "nome_projeto": {
+      "type": "string",
+      "description": "Nome do projeto"
+    },
+    "instituicao": {
+      "type": "string",
+      "description": "Institui\u00e7\u00e3o"
+    },
+    "unidade_executora": {
+      "type": "string",
+      "description": "Unidade executora"
+    },
+    "documento_url": {
+      "type": "string",
+      "description": "URL do documento do edital"
+    },
+    "candidatos_inscritos": {
+      "type": "number",
+      "description": "N\u00famero de candidatos inscritos"
+    }
+  },
+  "required": [
+    "numero_edital",
+    "titulo"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "TabelaBolsa",
+  "type": "object",
+  "properties": {
+    "Referência": {
+      "description": "Campo da planilha mãe: Referência",
+      "type": "string"
+    },
+    "Modalidade": {
+      "description": "Campo da planilha mãe: Modalidade",
+      "type": "string"
+    },
+    "Sigla": {
+      "description": "Campo da planilha mãe: Sigla",
+      "type": "string"
+    },
+    "Descrição": {
+      "description": "Campo da planilha mãe: Descrição",
+      "type": "string"
+    },
+    "Valor 01/03/2022": {
+      "description": "Campo da planilha mãe: Valor 01/03/2022",
+      "type": "number"
+    },
+    "Valor 01/08/2023": {
+      "description": "Campo da planilha mãe: Valor 01/08/2023",
+      "type": "number"
+    },
+    "Valor 01/12/2023": {
+      "description": "Campo da planilha mãe: Valor 01/12/2023",
+      "type": "number"
+    },
+    "Regra de uso": {
+      "description": "Campo da planilha mãe: Regra de uso",
+      "type": "string"
+    },
+    "Fonte do anexo": {
+      "description": "Campo da planilha mãe: Fonte do anexo",
+      "type": "string"
+    },
+    "Valor único": {
+      "description": "Campo da planilha mãe: Valor único",
+      "type": "number"
+    },
+    "Prazo máximo": {
+      "description": "Campo da planilha mãe: Prazo máximo",
+      "type": "string"
+    }
+  },
+  "required": []
+}

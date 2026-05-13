@@ -1,0 +1,57 @@
+{
+  "name": "Distrato",
+  "type": "object",
+  "properties": {
+    "ID": {
+      "description": "Campo da planilha mãe: ID",
+      "type": "string"
+    },
+    "IDContrato": {
+      "description": "Campo da planilha mãe: IDContrato",
+      "type": "string"
+    },
+    "TipoDesligamento": {
+      "description": "Campo da planilha mãe: TipoDesligamento",
+      "type": "string"
+    },
+    "DataDesligamento": {
+      "description": "Campo da planilha mãe: DataDesligamento",
+      "type": "string",
+      "format": "date"
+    },
+    "MotivoDesligamento": {
+      "description": "Campo da planilha mãe: MotivoDesligamento",
+      "type": "string"
+    },
+    "JustificativaDistrato": {
+      "description": "Campo da planilha mãe: JustificativaDistrato",
+      "type": "string"
+    },
+    "NomeDocumentoDistrato": {
+      "description": "Campo da planilha mãe: NomeDocumentoDistrato",
+      "type": "string"
+    },
+    "LinkDistrato": {
+      "description": "Campo da planilha mãe: LinkDistrato",
+      "type": "string"
+    },
+    "DataAssinaturaDistrato": {
+      "description": "Campo da planilha mãe: DataAssinaturaDistrato",
+      "type": "string",
+      "format": "date"
+    },
+    "Status": {
+      "description": "Campo da planilha mãe: Status",
+      "type": "string"
+    },
+    "UsuarioUltimaAtualizacao": {
+      "description": "Campo da planilha mãe: UsuarioUltimaAtualizacao",
+      "type": "string"
+    }
+  },
+  "required": [
+    "IDContrato",
+    "MotivoDesligamento",
+    "DataDesligamento"
+  ]
+}

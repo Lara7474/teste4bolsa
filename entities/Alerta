@@ -1,0 +1,82 @@
+{
+  "name": "Alerta",
+  "type": "object",
+  "properties": {
+    "tipo": {
+      "type": "string",
+      "enum": [
+        "vencimento_proximo",
+        "esocial_pendente",
+        "documento_pendente",
+        "assinatura_pendente",
+        "distrato_recente",
+        "novo_contrato",
+        "aprovacao_pendente",
+        "sistema"
+      ],
+      "description": "Tipo do alerta"
+    },
+    "titulo": {
+      "type": "string",
+      "description": "T\u00edtulo do alerta"
+    },
+    "mensagem": {
+      "type": "string",
+      "description": "Mensagem do alerta"
+    },
+    "contrato_id": {
+      "type": "string",
+      "description": "ID do contrato relacionado"
+    },
+    "solicitacao_id": {
+      "type": "string",
+      "description": "ID da solicita\u00e7\u00e3o relacionada"
+    },
+    "nome_bolsista": {
+      "type": "string",
+      "description": "Nome do bolsista"
+    },
+    "numero_projeto": {
+      "type": "string",
+      "description": "N\u00famero do projeto"
+    },
+    "prioridade": {
+      "type": "string",
+      "enum": [
+        "baixa",
+        "media",
+        "alta",
+        "critica"
+      ],
+      "default": "media"
+    },
+    "lido": {
+      "type": "boolean",
+      "default": false,
+      "description": "Se o alerta foi lido"
+    },
+    "destinatario_setor": {
+      "type": "string",
+      "enum": [
+        "bolsas",
+        "projetos",
+        "todos",
+        "solicitante"
+      ],
+      "default": "todos"
+    },
+    "data_referencia": {
+      "type": "string",
+      "format": "date",
+      "description": "Data de refer\u00eancia do alerta"
+    },
+    "link": {
+      "type": "string",
+      "description": "Link relacionado ao alerta"
+    }
+  },
+  "required": [
+    "tipo",
+    "titulo"
+  ]
+}

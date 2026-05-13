@@ -1,0 +1,564 @@
+{
+  "name": "Solicitacao",
+  "type": "object",
+  "properties": {
+    "Timestamp": {
+      "description": "Campo da planilha mãe: Timestamp",
+      "type": "string",
+      "format": "date"
+    },
+    "ID": {
+      "description": "Campo da planilha mãe: ID",
+      "type": "string"
+    },
+    "TipoSolicitacao": {
+      "description": "Campo da planilha mãe: TipoSolicitacao",
+      "type": "string"
+    },
+    "Prioridade": {
+      "description": "Campo da planilha mãe: Prioridade",
+      "type": "string"
+    },
+    "Status": {
+      "description": "Campo da planilha mãe: Status",
+      "type": "string"
+    },
+    "EtapaAtual": {
+      "description": "Campo da planilha mãe: EtapaAtual",
+      "type": "string"
+    },
+    "ResponsavelAtual": {
+      "description": "Campo da planilha mãe: ResponsavelAtual",
+      "type": "string"
+    },
+    "NomeSolicitante": {
+      "description": "Campo da planilha mãe: NomeSolicitante",
+      "type": "string"
+    },
+    "EmailSolicitante": {
+      "description": "Campo da planilha mãe: EmailSolicitante",
+      "type": "string"
+    },
+    "SetorSolicitante": {
+      "description": "Campo da planilha mãe: SetorSolicitante",
+      "type": "string"
+    },
+    "TelefoneSolicitante": {
+      "description": "Campo da planilha mãe: TelefoneSolicitante",
+      "type": "string"
+    },
+    "Projeto": {
+      "description": "Campo da planilha mãe: Projeto",
+      "type": "string"
+    },
+    "CodigoProjeto": {
+      "description": "Campo da planilha mãe: CodigoProjeto",
+      "type": "string"
+    },
+    "Financiadora": {
+      "description": "Campo da planilha mãe: Financiadora",
+      "type": "string"
+    },
+    "InstituicaoModeloContrato": {
+      "description": "Campo da planilha mãe: InstituicaoModeloContrato",
+      "type": "string"
+    },
+    "ModeloContrato": {
+      "description": "Campo da planilha mãe: ModeloContrato",
+      "type": "string"
+    },
+    "UnidadeExecutora": {
+      "description": "Campo da planilha mãe: UnidadeExecutora",
+      "type": "string"
+    },
+    "CNPJUnidade": {
+      "description": "Campo da planilha mãe: CNPJUnidade",
+      "type": "string"
+    },
+    "InscricaoEstadualUnidade": {
+      "description": "Campo da planilha mãe: InscricaoEstadualUnidade",
+      "type": "string"
+    },
+    "EnderecoUnidade": {
+      "description": "Campo da planilha mãe: EnderecoUnidade",
+      "type": "string"
+    },
+    "CidadeUnidade": {
+      "description": "Campo da planilha mãe: CidadeUnidade",
+      "type": "string"
+    },
+    "UFUnidade": {
+      "description": "Campo da planilha mãe: UFUnidade",
+      "type": "string"
+    },
+    "ChefeUnidade": {
+      "description": "Campo da planilha mãe: ChefeUnidade",
+      "type": "string"
+    },
+    "CPFChefeUnidade": {
+      "description": "Campo da planilha mãe: CPFChefeUnidade",
+      "type": "string"
+    },
+    "CargoChefeUnidade": {
+      "description": "Campo da planilha mãe: CargoChefeUnidade",
+      "type": "string"
+    },
+    "Coordenador": {
+      "description": "Campo da planilha mãe: Coordenador",
+      "type": "string"
+    },
+    "CPFCoordenador": {
+      "description": "Campo da planilha mãe: CPFCoordenador",
+      "type": "string"
+    },
+    "EmailCoordenador": {
+      "description": "Campo da planilha mãe: EmailCoordenador",
+      "type": "string"
+    },
+    "Orientador": {
+      "description": "Campo da planilha mãe: Orientador",
+      "type": "string"
+    },
+    "CPFOrientador": {
+      "description": "Campo da planilha mãe: CPFOrientador",
+      "type": "string"
+    },
+    "EmailOrientador": {
+      "description": "Campo da planilha mãe: EmailOrientador",
+      "type": "string"
+    },
+    "DataAssinaturaProjeto": {
+      "description": "Campo da planilha mãe: DataAssinaturaProjeto",
+      "type": "string",
+      "format": "date"
+    },
+    "DataInicioProjeto": {
+      "description": "Campo da planilha mãe: DataInicioProjeto",
+      "type": "string",
+      "format": "date"
+    },
+    "DataFimProjeto": {
+      "description": "Campo da planilha mãe: DataFimProjeto",
+      "type": "string",
+      "format": "date"
+    },
+    "MetaTED": {
+      "description": "Campo da planilha mãe: MetaTED",
+      "type": "string"
+    },
+    "EtapaTED": {
+      "description": "Campo da planilha mãe: EtapaTED",
+      "type": "string"
+    },
+    "ObjetivoContratacao": {
+      "description": "Campo da planilha mãe: ObjetivoContratacao",
+      "type": "string"
+    },
+    "AreaAtuacao": {
+      "description": "Campo da planilha mãe: AreaAtuacao",
+      "type": "string"
+    },
+    "LocalTrabalho": {
+      "description": "Campo da planilha mãe: LocalTrabalho",
+      "type": "string"
+    },
+    "ContratacaoPrevistaPlanoTrabalho": {
+      "description": "Campo da planilha mãe: ContratacaoPrevistaPlanoTrabalho",
+      "type": "string"
+    },
+    "SaldoRubrica": {
+      "description": "Campo da planilha mãe: SaldoRubrica",
+      "type": "number"
+    },
+    "ObservacaoProjetos": {
+      "description": "Campo da planilha mãe: ObservacaoProjetos",
+      "type": "string"
+    },
+    "Modalidade": {
+      "description": "Campo da planilha mãe: Modalidade",
+      "type": "string"
+    },
+    "DescricaoModalidade": {
+      "description": "Campo da planilha mãe: DescricaoModalidade",
+      "type": "string"
+    },
+    "TabelaBolsa": {
+      "description": "Campo da planilha mãe: TabelaBolsa",
+      "type": "string"
+    },
+    "ValorBolsa": {
+      "description": "Campo da planilha mãe: ValorBolsa",
+      "type": "number"
+    },
+    "QuantidadeVagas": {
+      "description": "Campo da planilha mãe: QuantidadeVagas",
+      "type": "number"
+    },
+    "CargaHoraria": {
+      "description": "Campo da planilha mãe: CargaHoraria",
+      "type": "string"
+    },
+    "VigenciaMeses": {
+      "description": "Campo da planilha mãe: VigenciaMeses",
+      "type": "number"
+    },
+    "DataInicioVigencia": {
+      "description": "Campo da planilha mãe: DataInicioVigencia",
+      "type": "string",
+      "format": "date"
+    },
+    "DataFimVigencia": {
+      "description": "Campo da planilha mãe: DataFimVigencia",
+      "type": "string",
+      "format": "date"
+    },
+    "NumeroApoliceSeguro": {
+      "description": "Campo da planilha mãe: NumeroApoliceSeguro",
+      "type": "string"
+    },
+    "NumeroEdital": {
+      "description": "Campo da planilha mãe: NumeroEdital",
+      "type": "string"
+    },
+    "DataPublicacaoEdital": {
+      "description": "Campo da planilha mãe: DataPublicacaoEdital",
+      "type": "string",
+      "format": "date"
+    },
+    "DataLimiteInscricao": {
+      "description": "Campo da planilha mãe: DataLimiteInscricao",
+      "type": "string",
+      "format": "date"
+    },
+    "LinkEdital": {
+      "description": "Campo da planilha mãe: LinkEdital",
+      "type": "string"
+    },
+    "RequisitosObrigatorios": {
+      "description": "Campo da planilha mãe: RequisitosObrigatorios",
+      "type": "string"
+    },
+    "RequisitosDesejaveis": {
+      "description": "Campo da planilha mãe: RequisitosDesejaveis",
+      "type": "string"
+    },
+    "AtividadesDesenvolvidas": {
+      "description": "Campo da planilha mãe: AtividadesDesenvolvidas",
+      "type": "string"
+    },
+    "Entrevistador1": {
+      "description": "Campo da planilha mãe: Entrevistador1",
+      "type": "string"
+    },
+    "EmailEntrevistador1": {
+      "description": "Campo da planilha mãe: EmailEntrevistador1",
+      "type": "string"
+    },
+    "Entrevistador2": {
+      "description": "Campo da planilha mãe: Entrevistador2",
+      "type": "string"
+    },
+    "EmailEntrevistador2": {
+      "description": "Campo da planilha mãe: EmailEntrevistador2",
+      "type": "string"
+    },
+    "NomeBolsista": {
+      "description": "Campo da planilha mãe: NomeBolsista",
+      "type": "string"
+    },
+    "NomeSocial": {
+      "description": "Campo da planilha mãe: NomeSocial",
+      "type": "string"
+    },
+    "CPF": {
+      "description": "Campo da planilha mãe: CPF",
+      "type": "string"
+    },
+    "RG": {
+      "description": "Campo da planilha mãe: RG",
+      "type": "string"
+    },
+    "OrgaoExpedidor": {
+      "description": "Campo da planilha mãe: OrgaoExpedidor",
+      "type": "string"
+    },
+    "DataExpedicaoRG": {
+      "description": "Campo da planilha mãe: DataExpedicaoRG",
+      "type": "string",
+      "format": "date"
+    },
+    "DataNascimento": {
+      "description": "Campo da planilha mãe: DataNascimento",
+      "type": "string",
+      "format": "date"
+    },
+    "EstadoCivil": {
+      "description": "Campo da planilha mãe: EstadoCivil",
+      "type": "string"
+    },
+    "Naturalidade": {
+      "description": "Campo da planilha mãe: Naturalidade",
+      "type": "string"
+    },
+    "Nacionalidade": {
+      "description": "Campo da planilha mãe: Nacionalidade",
+      "type": "string"
+    },
+    "Endereco": {
+      "description": "Campo da planilha mãe: Endereco",
+      "type": "string"
+    },
+    "NumeroEndereco": {
+      "description": "Campo da planilha mãe: NumeroEndereco",
+      "type": "string"
+    },
+    "ComplementoEndereco": {
+      "description": "Campo da planilha mãe: ComplementoEndereco",
+      "type": "string"
+    },
+    "Bairro": {
+      "description": "Campo da planilha mãe: Bairro",
+      "type": "string"
+    },
+    "CEP": {
+      "description": "Campo da planilha mãe: CEP",
+      "type": "string"
+    },
+    "Cidade": {
+      "description": "Campo da planilha mãe: Cidade",
+      "type": "string"
+    },
+    "Estado": {
+      "description": "Campo da planilha mãe: Estado",
+      "type": "string"
+    },
+    "Telefone": {
+      "description": "Campo da planilha mãe: Telefone",
+      "type": "string"
+    },
+    "EmailBolsista": {
+      "description": "Campo da planilha mãe: EmailBolsista",
+      "type": "string"
+    },
+    "Banco": {
+      "description": "Campo da planilha mãe: Banco",
+      "type": "string"
+    },
+    "Agencia": {
+      "description": "Campo da planilha mãe: Agencia",
+      "type": "string"
+    },
+    "Conta": {
+      "description": "Campo da planilha mãe: Conta",
+      "type": "string"
+    },
+    "TipoConta": {
+      "description": "Campo da planilha mãe: TipoConta",
+      "type": "string"
+    },
+    "ChavePIX": {
+      "description": "Campo da planilha mãe: ChavePIX",
+      "type": "string"
+    },
+    "Graduacao": {
+      "description": "Campo da planilha mãe: Graduacao",
+      "type": "string"
+    },
+    "InstituicaoGraduacao": {
+      "description": "Campo da planilha mãe: InstituicaoGraduacao",
+      "type": "string"
+    },
+    "Mestrado": {
+      "description": "Campo da planilha mãe: Mestrado",
+      "type": "string"
+    },
+    "InstituicaoMestrado": {
+      "description": "Campo da planilha mãe: InstituicaoMestrado",
+      "type": "string"
+    },
+    "Doutorado": {
+      "description": "Campo da planilha mãe: Doutorado",
+      "type": "string"
+    },
+    "InstituicaoDoutorado": {
+      "description": "Campo da planilha mãe: InstituicaoDoutorado",
+      "type": "string"
+    },
+    "CurriculoLattesLink": {
+      "description": "Campo da planilha mãe: CurriculoLattesLink",
+      "type": "string"
+    },
+    "ComprovantesLink": {
+      "description": "Campo da planilha mãe: ComprovantesLink",
+      "type": "string"
+    },
+    "DocumentosPessoaisConferidos": {
+      "description": "Campo da planilha mãe: DocumentosPessoaisConferidos",
+      "type": "string",
+      "enum": [
+        "Sim",
+        "Não"
+      ]
+    },
+    "DataConferenciaDocumentos": {
+      "description": "Campo da planilha mãe: DataConferenciaDocumentos",
+      "type": "string",
+      "format": "date"
+    },
+    "PastaDriveID": {
+      "description": "Campo da planilha mãe: PastaDriveID",
+      "type": "string"
+    },
+    "PastaDriveLink": {
+      "description": "Campo da planilha mãe: PastaDriveLink",
+      "type": "string"
+    },
+    "LinkTermoReferencia": {
+      "description": "Campo da planilha mãe: LinkTermoReferencia",
+      "type": "string"
+    },
+    "LinkMinutaEdital": {
+      "description": "Campo da planilha mãe: LinkMinutaEdital",
+      "type": "string"
+    },
+    "LinkMinutaContrato": {
+      "description": "Campo da planilha mãe: LinkMinutaContrato",
+      "type": "string"
+    },
+    "LinkContrato": {
+      "description": "Campo da planilha mãe: LinkContrato",
+      "type": "string"
+    },
+    "LinkAutentique": {
+      "description": "Campo da planilha mãe: LinkAutentique",
+      "type": "string"
+    },
+    "DataEnvioAutentique": {
+      "description": "Campo da planilha mãe: DataEnvioAutentique",
+      "type": "string",
+      "format": "date"
+    },
+    "DataAssinaturaContrato": {
+      "description": "Campo da planilha mãe: DataAssinaturaContrato",
+      "type": "string",
+      "format": "date"
+    },
+    "IDContrato": {
+      "description": "Campo da planilha mãe: IDContrato",
+      "type": "string"
+    },
+    "ChaveContrato": {
+      "description": "Campo da planilha mãe: ChaveContrato",
+      "type": "string"
+    },
+    "ContratoAtivo": {
+      "description": "Campo da planilha mãe: ContratoAtivo",
+      "type": "string",
+      "enum": [
+        "Sim",
+        "Não"
+      ]
+    },
+    "TipoAditivo": {
+      "description": "Campo da planilha mãe: TipoAditivo",
+      "type": "string"
+    },
+    "IDContratoOrigem": {
+      "description": "Campo da planilha mãe: IDContratoOrigem",
+      "type": "string"
+    },
+    "NovaDataInicio": {
+      "description": "Campo da planilha mãe: NovaDataInicio",
+      "type": "string",
+      "format": "date"
+    },
+    "NovaDataFim": {
+      "description": "Campo da planilha mãe: NovaDataFim",
+      "type": "string",
+      "format": "date"
+    },
+    "NovoValor": {
+      "description": "Campo da planilha mãe: NovoValor",
+      "type": "number"
+    },
+    "NovaModalidade": {
+      "description": "Campo da planilha mãe: NovaModalidade",
+      "type": "string"
+    },
+    "JustificativaAditivo": {
+      "description": "Campo da planilha mãe: JustificativaAditivo",
+      "type": "string"
+    },
+    "DespachoLink": {
+      "description": "Campo da planilha mãe: DespachoLink",
+      "type": "string"
+    },
+    "NomeDocumentoAditivo": {
+      "description": "Campo da planilha mãe: NomeDocumentoAditivo",
+      "type": "string"
+    },
+    "LinkAditivo": {
+      "description": "Campo da planilha mãe: LinkAditivo",
+      "type": "string"
+    },
+    "DataAssinaturaAditivo": {
+      "description": "Campo da planilha mãe: DataAssinaturaAditivo",
+      "type": "string",
+      "format": "date"
+    },
+    "TipoDesligamento": {
+      "description": "Campo da planilha mãe: TipoDesligamento",
+      "type": "string"
+    },
+    "DataDesligamento": {
+      "description": "Campo da planilha mãe: DataDesligamento",
+      "type": "string",
+      "format": "date"
+    },
+    "MotivoDesligamento": {
+      "description": "Campo da planilha mãe: MotivoDesligamento",
+      "type": "string"
+    },
+    "JustificativaDistrato": {
+      "description": "Campo da planilha mãe: JustificativaDistrato",
+      "type": "string"
+    },
+    "NomeDocumentoDistrato": {
+      "description": "Campo da planilha mãe: NomeDocumentoDistrato",
+      "type": "string"
+    },
+    "LinkDistrato": {
+      "description": "Campo da planilha mãe: LinkDistrato",
+      "type": "string"
+    },
+    "DataAssinaturaDistrato": {
+      "description": "Campo da planilha mãe: DataAssinaturaDistrato",
+      "type": "string",
+      "format": "date"
+    },
+    "DataCriacaoRegistro": {
+      "description": "Campo da planilha mãe: DataCriacaoRegistro",
+      "type": "string",
+      "format": "date"
+    },
+    "UltimaAtualizacao": {
+      "description": "Campo da planilha mãe: UltimaAtualizacao",
+      "type": "string"
+    },
+    "UsuarioUltimaAtualizacao": {
+      "description": "Campo da planilha mãe: UsuarioUltimaAtualizacao",
+      "type": "string"
+    },
+    "ObservacoesGerais": {
+      "description": "Campo da planilha mãe: ObservacoesGerais",
+      "type": "string"
+    }
+  },
+  "required": [
+    "TipoSolicitacao",
+    "NomeSolicitante",
+    "EmailSolicitante",
+    "Projeto",
+    "CodigoProjeto"
+  ]
+}

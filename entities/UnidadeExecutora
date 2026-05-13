@@ -1,0 +1,55 @@
+{
+  "name": "UnidadeExecutora",
+  "type": "object",
+  "properties": {
+    "Instituição/modelo": {
+      "description": "Campo da planilha mãe: Instituição/modelo",
+      "type": "string"
+    },
+    "Unidade executora": {
+      "description": "Campo da planilha mãe: Unidade executora",
+      "type": "string"
+    },
+    "CNPJ": {
+      "description": "Campo da planilha mãe: CNPJ",
+      "type": "string"
+    },
+    "Inscrição estadual": {
+      "description": "Campo da planilha mãe: Inscrição estadual",
+      "type": "string"
+    },
+    "Endereço completo": {
+      "description": "Campo da planilha mãe: Endereço completo",
+      "type": "string"
+    },
+    "Cidade": {
+      "description": "Campo da planilha mãe: Cidade",
+      "type": "string"
+    },
+    "UF": {
+      "description": "Campo da planilha mãe: UF",
+      "type": "string"
+    },
+    "CEP": {
+      "description": "Campo da planilha mãe: CEP",
+      "type": "string"
+    },
+    "Chefia": {
+      "description": "Campo da planilha mãe: Chefia",
+      "type": "string"
+    },
+    "CPF chefia": {
+      "description": "Campo da planilha mãe: CPF chefia",
+      "type": "string"
+    },
+    "Cargo da chefia": {
+      "description": "Campo da planilha mãe: Cargo da chefia",
+      "type": "string"
+    },
+    "Observações": {
+      "description": "Campo da planilha mãe: Observações",
+      "type": "string"
+    }
+  },
+  "required": []
+}

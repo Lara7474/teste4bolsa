@@ -1,0 +1,64 @@
+{
+  "name": "Documento",
+  "type": "object",
+  "properties": {
+    "IDDocumento": {
+      "description": "Campo da planilha mãe: IDDocumento",
+      "type": "string"
+    },
+    "IDSolicitacao": {
+      "description": "Campo da planilha mãe: IDSolicitacao",
+      "type": "string"
+    },
+    "IDContrato": {
+      "description": "Campo da planilha mãe: IDContrato",
+      "type": "string"
+    },
+    "TipoDocumento": {
+      "description": "Campo da planilha mãe: TipoDocumento",
+      "type": "string"
+    },
+    "NomeDocumento": {
+      "description": "Campo da planilha mãe: NomeDocumento",
+      "type": "string"
+    },
+    "DataGeracao": {
+      "description": "Campo da planilha mãe: DataGeracao",
+      "type": "string",
+      "format": "date"
+    },
+    "GeradoPor": {
+      "description": "Campo da planilha mãe: GeradoPor",
+      "type": "string"
+    },
+    "LinkArquivo": {
+      "description": "Campo da planilha mãe: LinkArquivo",
+      "type": "string"
+    },
+    "StatusDocumento": {
+      "description": "Campo da planilha mãe: StatusDocumento",
+      "type": "string"
+    },
+    "Versao": {
+      "description": "Campo da planilha mãe: Versao",
+      "type": "string"
+    },
+    "Observacoes": {
+      "description": "Campo da planilha mãe: Observacoes",
+      "type": "string"
+    },
+    "CamposPendentes": {
+      "description": "Campo da planilha mãe: CamposPendentes",
+      "type": "string"
+    },
+    "PlaceholdersPreenchidos": {
+      "description": "Campo da planilha mãe: PlaceholdersPreenchidos",
+      "type": "string"
+    }
+  },
+  "required": [
+    "TipoDocumento",
+    "NomeDocumento",
+    "DataGeracao"
+  ]
+}

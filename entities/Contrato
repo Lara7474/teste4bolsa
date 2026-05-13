@@ -1,0 +1,113 @@
+{
+  "name": "Contrato",
+  "type": "object",
+  "properties": {
+    "IDContrato": {
+      "description": "Campo da planilha mãe: IDContrato",
+      "type": "string"
+    },
+    "IDSolicitacaoOrigem": {
+      "description": "Campo da planilha mãe: IDSolicitacaoOrigem",
+      "type": "string"
+    },
+    "Projeto": {
+      "description": "Campo da planilha mãe: Projeto",
+      "type": "string"
+    },
+    "CodigoProjeto": {
+      "description": "Campo da planilha mãe: CodigoProjeto",
+      "type": "string"
+    },
+    "UnidadeExecutora": {
+      "description": "Campo da planilha mãe: UnidadeExecutora",
+      "type": "string"
+    },
+    "NomeBolsista": {
+      "description": "Campo da planilha mãe: NomeBolsista",
+      "type": "string"
+    },
+    "CPF": {
+      "description": "Campo da planilha mãe: CPF",
+      "type": "string"
+    },
+    "Modalidade": {
+      "description": "Campo da planilha mãe: Modalidade",
+      "type": "string"
+    },
+    "ValorBolsa": {
+      "description": "Campo da planilha mãe: ValorBolsa",
+      "type": "number"
+    },
+    "DataInicio": {
+      "description": "Campo da planilha mãe: DataInicio",
+      "type": "string",
+      "format": "date"
+    },
+    "DataFim": {
+      "description": "Campo da planilha mãe: DataFim",
+      "type": "string",
+      "format": "date"
+    },
+    "StatusContrato": {
+      "description": "Campo da planilha mãe: StatusContrato",
+      "type": "string"
+    },
+    "TabelaBolsa": {
+      "description": "Campo da planilha mãe: TabelaBolsa",
+      "type": "string"
+    },
+    "DataAssinaturaProjeto": {
+      "description": "Campo da planilha mãe: DataAssinaturaProjeto",
+      "type": "string",
+      "format": "date"
+    },
+    "Coordenador": {
+      "description": "Campo da planilha mãe: Coordenador",
+      "type": "string"
+    },
+    "Orientador": {
+      "description": "Campo da planilha mãe: Orientador",
+      "type": "string"
+    },
+    "ModeloContrato": {
+      "description": "Campo da planilha mãe: ModeloContrato",
+      "type": "string"
+    },
+    "LinkContrato": {
+      "description": "Campo da planilha mãe: LinkContrato",
+      "type": "string"
+    },
+    "LinkAditivo": {
+      "description": "Campo da planilha mãe: LinkAditivo",
+      "type": "string"
+    },
+    "LinkDistrato": {
+      "description": "Campo da planilha mãe: LinkDistrato",
+      "type": "string"
+    },
+    "PastaDriveLink": {
+      "description": "Campo da planilha mãe: PastaDriveLink",
+      "type": "string"
+    },
+    "ChaveContrato": {
+      "description": "Campo da planilha mãe: ChaveContrato",
+      "type": "string"
+    },
+    "UltimoAditivoTipo": {
+      "description": "Campo da planilha mãe: UltimoAditivoTipo",
+      "type": "string"
+    },
+    "UltimaAtualizacao": {
+      "description": "Campo da planilha mãe: UltimaAtualizacao",
+      "type": "string"
+    }
+  },
+  "required": [
+    "IDContrato",
+    "IDSolicitacaoOrigem",
+    "Projeto",
+    "CodigoProjeto",
+    "NomeBolsista",
+    "CPF"
+  ]
+}

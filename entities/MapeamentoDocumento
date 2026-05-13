@@ -1,0 +1,35 @@
+{
+  "name": "MapeamentoDocumento",
+  "type": "object",
+  "properties": {
+    "Documento": {
+      "description": "Campo da planilha mãe: Documento",
+      "type": "string"
+    },
+    "Placeholder sugerido": {
+      "description": "Campo da planilha mãe: Placeholder sugerido",
+      "type": "string"
+    },
+    "Campo origem": {
+      "description": "Campo da planilha mãe: Campo origem",
+      "type": "string"
+    },
+    "Aba origem": {
+      "description": "Campo da planilha mãe: Aba origem",
+      "type": "string"
+    },
+    "Regra de preenchimento": {
+      "description": "Campo da planilha mãe: Regra de preenchimento",
+      "type": "string"
+    },
+    "Obrigatório": {
+      "description": "Campo da planilha mãe: Obrigatório",
+      "type": "string"
+    },
+    "Observação": {
+      "description": "Campo da planilha mãe: Observação",
+      "type": "string"
+    }
+  },
+  "required": []
+}

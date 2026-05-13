@@ -1,0 +1,67 @@
+{
+  "name": "ListaValidacao",
+  "type": "object",
+  "properties": {
+    "TipoSolicitacao": {
+      "description": "Campo da planilha mãe: TipoSolicitacao",
+      "type": "string"
+    },
+    "Prioridade": {
+      "description": "Campo da planilha mãe: Prioridade",
+      "type": "string"
+    },
+    "Status": {
+      "description": "Campo da planilha mãe: Status",
+      "type": "string"
+    },
+    "EtapaAtual": {
+      "description": "Campo da planilha mãe: EtapaAtual",
+      "type": "string"
+    },
+    "ResponsavelAtual": {
+      "description": "Campo da planilha mãe: ResponsavelAtual",
+      "type": "string"
+    },
+    "InstituicaoModeloContrato": {
+      "description": "Campo da planilha mãe: InstituicaoModeloContrato",
+      "type": "string"
+    },
+    "ModeloContrato": {
+      "description": "Campo da planilha mãe: ModeloContrato",
+      "type": "string"
+    },
+    "TipoAditivo": {
+      "description": "Campo da planilha mãe: TipoAditivo",
+      "type": "string"
+    },
+    "TipoDesligamento": {
+      "description": "Campo da planilha mãe: TipoDesligamento",
+      "type": "string"
+    },
+    "TipoConta": {
+      "description": "Campo da planilha mãe: TipoConta",
+      "type": "string"
+    },
+    "Confirmacao": {
+      "description": "Campo da planilha mãe: Confirmacao",
+      "type": "string"
+    },
+    "TabelaBolsa": {
+      "description": "Campo da planilha mãe: TabelaBolsa",
+      "type": "string"
+    },
+    "UF": {
+      "description": "Campo da planilha mãe: UF",
+      "type": "string"
+    },
+    "Modalidade": {
+      "description": "Campo da planilha mãe: Modalidade",
+      "type": "string"
+    },
+    "EstadoCivil": {
+      "description": "Campo da planilha mãe: EstadoCivil",
+      "type": "string"
+    }
+  },
+  "required": []
+}

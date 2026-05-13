@@ -1,0 +1,73 @@
+{
+  "name": "Aditivo",
+  "type": "object",
+  "properties": {
+    "ID": {
+      "description": "Campo da planilha mãe: ID",
+      "type": "string"
+    },
+    "IDContrato": {
+      "description": "Campo da planilha mãe: IDContrato",
+      "type": "string"
+    },
+    "TipoAditivo": {
+      "description": "Campo da planilha mãe: TipoAditivo",
+      "type": "string"
+    },
+    "IDContratoOrigem": {
+      "description": "Campo da planilha mãe: IDContratoOrigem",
+      "type": "string"
+    },
+    "NovaDataInicio": {
+      "description": "Campo da planilha mãe: NovaDataInicio",
+      "type": "string",
+      "format": "date"
+    },
+    "NovaDataFim": {
+      "description": "Campo da planilha mãe: NovaDataFim",
+      "type": "string",
+      "format": "date"
+    },
+    "NovoValor": {
+      "description": "Campo da planilha mãe: NovoValor",
+      "type": "number"
+    },
+    "NovaModalidade": {
+      "description": "Campo da planilha mãe: NovaModalidade",
+      "type": "string"
+    },
+    "JustificativaAditivo": {
+      "description": "Campo da planilha mãe: JustificativaAditivo",
+      "type": "string"
+    },
+    "DespachoLink": {
+      "description": "Campo da planilha mãe: DespachoLink",
+      "type": "string"
+    },
+    "NomeDocumentoAditivo": {
+      "description": "Campo da planilha mãe: NomeDocumentoAditivo",
+      "type": "string"
+    },
+    "LinkAditivo": {
+      "description": "Campo da planilha mãe: LinkAditivo",
+      "type": "string"
+    },
+    "DataAssinaturaAditivo": {
+      "description": "Campo da planilha mãe: DataAssinaturaAditivo",
+      "type": "string",
+      "format": "date"
+    },
+    "Status": {
+      "description": "Campo da planilha mãe: Status",
+      "type": "string"
+    },
+    "UsuarioUltimaAtualizacao": {
+      "description": "Campo da planilha mãe: UsuarioUltimaAtualizacao",
+      "type": "string"
+    }
+  },
+  "required": [
+    "IDContratoOrigem",
+    "TipoAditivo"
+  ]
+}
